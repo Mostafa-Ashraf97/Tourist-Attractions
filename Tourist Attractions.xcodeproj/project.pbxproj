@@ -10,6 +10,7 @@
 		0029C4DF2B4B381200E8F7ED /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0029C4DE2B4B381200E8F7ED /* LocationListView.swift */; };
 		0029C4E12B4C9DF600E8F7ED /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0029C4E02B4C9DF600E8F7ED /* LocationPreviewView.swift */; };
 		0029C4E32B4DE0DF00E8F7ED /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0029C4E22B4DE0DF00E8F7ED /* MapAnnotationView.swift */; };
+		0029C4E72B5071F600E8F7ED /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0029C4E62B5071F600E8F7ED /* LocationDetailView.swift */; };
 		009ADDCA2B4AEFD7003D4C3E /* Tourist_AttractionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009ADDC92B4AEFD7003D4C3E /* Tourist_AttractionsApp.swift */; };
 		009ADDD12B4AEFDB003D4C3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009ADDD02B4AEFDB003D4C3E /* Preview Assets.xcassets */; };
 		009ADDD82B4AF04D003D4C3E /* LocationDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009ADDD72B4AF04D003D4C3E /* LocationDataService.swift */; };
@@ -23,6 +24,7 @@
 		0029C4DE2B4B381200E8F7ED /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		0029C4E02B4C9DF600E8F7ED /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		0029C4E22B4DE0DF00E8F7ED /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		0029C4E62B5071F600E8F7ED /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		009ADDC62B4AEFD7003D4C3E /* Tourist Attractions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tourist Attractions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		009ADDC92B4AEFD7003D4C3E /* Tourist_AttractionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tourist_AttractionsApp.swift; sourceTree = "<group>"; };
 		009ADDD02B4AEFDB003D4C3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				0029C4DE2B4B381200E8F7ED /* LocationListView.swift */,
 				0029C4E02B4C9DF600E8F7ED /* LocationPreviewView.swift */,
 				0029C4E22B4DE0DF00E8F7ED /* MapAnnotationView.swift */,
+				0029C4E62B5071F600E8F7ED /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				009ADDDD2B4AF0E2003D4C3E /* LocationModel.swift in Sources */,
 				009ADDE12B4AF3EB003D4C3E /* LocationView.swift in Sources */,
+				0029C4E72B5071F600E8F7ED /* LocationDetailView.swift in Sources */,
 				009ADDCA2B4AEFD7003D4C3E /* Tourist_AttractionsApp.swift in Sources */,
 				0029C4DF2B4B381200E8F7ED /* LocationListView.swift in Sources */,
 				0029C4E12B4C9DF600E8F7ED /* LocationPreviewView.swift in Sources */,
