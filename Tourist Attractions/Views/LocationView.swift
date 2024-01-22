@@ -61,8 +61,8 @@ extension LocationView {
             annotationItems: viewModel.locations) { location in
             MapAnnotation(coordinate: location.coordinates) {
                 MapAnnotationView()
-                    .scaleEffect(viewModel.currentLocation == location ? 1.5 : 1)
-                    .shadow(radius: 10)
+                    .scaleEffect(viewModel.currentLocation == location ? 1.2 : 0.8)
+                    .shadow(radius: 20)
                     .onTapGesture {
                         viewModel.showNextLocation(location: location)
                     }

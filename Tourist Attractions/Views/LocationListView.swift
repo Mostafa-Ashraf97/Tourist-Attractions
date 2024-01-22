@@ -10,7 +10,6 @@ import SwiftUI
 struct LocationListView: View {
     
     @EnvironmentObject var viewModel: LocationViewModel
-    @State var searchText = ""
     
     var body: some View {
         List {
